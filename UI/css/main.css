@@ -1,7 +1,6 @@
 body {
     margin: 0px;
     padding: 0px;
-    background: url(images/9th.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }  
@@ -18,7 +17,13 @@ body {
     span.psw {
     float: right;
     padding-top: 16px;
-    font-size: 25px;
+    font-size: 20px;
+}
+p.header{
+    color: #4caf50;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
 }
 input[type='email'],
 input[type='password'] {
