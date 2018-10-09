@@ -40,6 +40,7 @@ input[type='password'] {
 input[type='reset']{
 border-radius: 20px;
 background-color: darkolivegreen;
+cursor: pointer;
 }
 /*Log in button styling*/
 button {
