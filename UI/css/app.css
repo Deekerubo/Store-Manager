@@ -1,0 +1,9 @@
+body{
+    background-color: lightgray;
+}
+.sidebar{
+    float: left;
+    background-color: white;
+    width: 300px;
+    z-index: 1;
+}
