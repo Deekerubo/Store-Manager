@@ -15,7 +15,6 @@ body {
     }
             
     span.psw {
-    float: right;
     padding-top: 16px;
     font-size: 15px;
 }
@@ -34,6 +33,10 @@ input[type='password'] {
   border: 1px solid #ccc;
   box-sizing: border-box;
 }
+input[type='reset']{
+border-radius: 20px;
+background-color: darkolivegreen;
+}
 button {
     background-color: #4caf50;
     color: white;
@@ -42,14 +45,9 @@ button {
     border: none;
     cursor: pointer;
     border-radius: 15px;
+    width: 40%;
     }
     
     button:hover {
     opacity: 0.8;
-    }     
-    .btn1{
-        margin-left: 50px;
-    } 
-    .btn2{
-        float: left;
-    } 
+    }

@@ -23,13 +23,11 @@
                     <b>Password</b>
                 </label>
                 <input type="password" placeholder="Enter Password" name="psw" required>
-                <label class="button">
-                    <button type="submit" class="btn1" onclick="location.href='#';">Admin Login</button>
-                    <button type="submit" class="btn2" onclick="location.href='#';">Attendant Login</button>
-                </label>
+                <button type="submit" onclick="check(this.form)" value="Login">Login</button>
+                <input type="reset" value="Cancel"/>
                 <span class="psw">Forgot Password?
                     <a href="#">Reset Here</a>
-                </br>
+                    </br>
                 </span>
             </div>
         </form>
