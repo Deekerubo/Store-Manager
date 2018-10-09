@@ -3,7 +3,8 @@ body {
     padding: 0px;
     background-repeat: no-repeat;
     background-size: cover;
-}  
+}
+/*Log in page container*/  
 .container1 {
     padding: 50px;
     margin-top: 50px;
@@ -18,12 +19,14 @@ body {
     padding-top: 16px;
     font-size: 15px;
 }
+/*header styling*/
 p.header{
     color: #4caf50;
     text-transform: uppercase;
     text-align: center;
     font-size: 30px;
 }
+/*input for email and password*/ 
 input[type='email'],
 input[type='password'] {
   width: 100%;
@@ -33,10 +36,12 @@ input[type='password'] {
   border: 1px solid #ccc;
   box-sizing: border-box;
 }
+/*Styling for the reset button*/
 input[type='reset']{
 border-radius: 20px;
 background-color: darkolivegreen;
 }
+/*Log in button styling*/
 button {
     background-color: #4caf50;
     color: white;
