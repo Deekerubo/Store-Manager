@@ -1,0 +1,60 @@
+/*css styling for the login page*/
+body {
+    margin: 0px;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*Log in page container*/  
+.container1 {
+    padding: 50px;
+    margin-top: 50px;
+    margin-left: 25%;
+    width: 40%;
+    background-color: #eee;
+    border: 4px solid #eee;
+    border-radius: 5px;
+    }
+            
+    span.psw {
+    padding-top: 16px;
+    font-size: 15px;
+}
+/*header styling*/
+p.header{
+    color: #4caf50;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+}
+/*input for email and password*/ 
+input[type='email'],
+input[type='password'] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+/*Styling for the reset button*/
+input[type='reset']{
+border-radius: 20px;
+background-color: darkolivegreen;
+cursor: pointer;
+}
+/*Log in button styling*/
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    width: 40%;
+    }
+    
+    button:hover {
+    opacity: 0.8;
+    }
