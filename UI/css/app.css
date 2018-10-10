@@ -43,6 +43,9 @@ span{
 .main {
     margin-left: 180px;
 }
+.main1{
+  margin: 0px;
+}
 .topnav{
     height: 30px;
 }
@@ -54,10 +57,10 @@ span{
     font-size: 17px;
 }
 @media(min-width:468px){
-    .container-1{
+    .container-1,{
       display:flex;
     } 
-  .container-1 div{
+  .container-1,  div{
     border:1px #eee solid;
     padding:10px;
     margin: 10px;
@@ -87,16 +90,7 @@ span{
     background-color: rgb(216, 216, 185);
   }
 }
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color:rgb(154, 180, 154);
-    color: black;
-    text-align: center;
-}
-/*Stling for all_products.html*/
+/*Styling for all_products.html*/
 .button {
     padding: 10px;
     border-radius: 5px;
@@ -106,36 +100,7 @@ span{
     font-size: 12px;
     font-weight: bold;
   }
-.products {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  
-  .product {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    max-width: 310px;
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    background: azure;
-  }
-  
-  
-  .product span {
-    font-weight: bold;
-  }
-  
-  .product-image img {
-    display: block;
-    max-width: 228px;
-    width: 100%;
-    margin: 0 auto;
-  }
-  
+ 
   .row .product:last-child {
     margin-right: 0;
   }
@@ -191,3 +156,38 @@ span{
   .cart-checkout {
     background: limegreen;
   }
+  /*list of all products*/
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 510px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background: white;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:rgb(154, 180, 154);
+  color: black;
+  text-align: center;
+}
