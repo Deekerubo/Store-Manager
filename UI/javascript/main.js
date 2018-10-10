@@ -9,11 +9,11 @@ function check(form)
     /*the following code checkes whether the entered email and password are matching*/
  if(form.email.value == "admin@gmail.com" && form.psw.value == "admin")
   {
-    window.open('target.html')
+    window.open('admin_dashboard.html')
     /*opens the target page while Id & password matches*/
   }else if(form.email.value == "user@gmail.com" && form.psw.value == "user")
   {
-    window.open('attdashboard.html')
+    window.open('att_dashboard.html')
   }
  else
  {
