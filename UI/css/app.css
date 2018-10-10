@@ -40,8 +40,16 @@ span{
     font-size: 17px;
 }
 .main {
-    margin-left: 180px; /* Same as the width of the sidebar */
-    padding: 0px 10px;
+    margin-left: 180px; 
+}
+.topnav{
+    height: 30px;
+    padding: 0;
+}
+.topnav a {
+    color: darkolivegreen;
+    margin-left: 250px;
+    margin-right: 0;
 }
 @media(min-width:468px){
     .container-1{
@@ -63,20 +71,24 @@ span{
   .box-1{
     flex:1;
     order:1;
-    background-color: beige;
+    background-color: rgb(216, 216, 185);
+    height: 20%;
   }
   
   .box-2{
     flex:1;
     order:2;
+    background-color: rgb(216, 216, 185);
   }
   
   .box-3{
     flex:1;
     order: 3;
+    background-color: rgb(216, 216, 185);
   }
   .box-4{
     flex:1;
     order: 3;
+    background-color: rgb(216, 216, 185);
   }
 }
