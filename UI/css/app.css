@@ -11,11 +11,12 @@ body{
     background-color: rgb(56, 60, 65); 
     overflow-x: hidden; 
     padding-top: 20px;
+    font-size: 20px;
 }
 .avatar {
     vertical-align: left;
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
 }
 .topsidebar{
@@ -28,8 +29,8 @@ span{
 }
 .topsidebar a {
     float: right;
-    color: olive;
-    font-size: 20px;
+    color: #ccc;
+    font-size: 25px;
     padding: 6px;
 }
 .bar a {
@@ -40,24 +41,24 @@ span{
     font-size: 17px;
 }
 .main {
-    margin-left: 180px; 
+    margin-left: 180px;
 }
 .topnav{
     height: 30px;
-    padding: 0;
 }
 .topnav a {
-    color: darkolivegreen;
+    color: black;
     float: right;
     padding: 5px;
     text-decoration: none;
+    font-size: 17px;
 }
 @media(min-width:468px){
     .container-1{
       display:flex;
     } 
   .container-1 div{
-    border:1px #ccc solid;
+    border:1px #eee solid;
     padding:10px;
     margin: 10px;
     margin-top: 60px;
@@ -67,8 +68,6 @@ span{
     flex:1;
     order:1;
     background-color: rgb(216, 216, 185);
-    height: 20%;
-    text-decoration: none;
   }
   
   .box-2{
@@ -87,4 +86,13 @@ span{
     order: 3;
     background-color: rgb(216, 216, 185);
   }
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(154, 180, 154);
+    color: black;
+    text-align: center;
 }
