@@ -38,4 +38,45 @@ span{
     color: white;
     text-decoration: none;
     font-size: 17px;
+}
+.main {
+    margin-left: 180px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+}
+@media(min-width:468px){
+    .container-1{
+      display:flex;
+      /*
+      align-items:flex-start;
+      align-items:flex-end;
+      align-items:center;
+      
+      flex-direction:column;
+      */
+    } 
+  .container-1 div{
+    border:1px #ccc solid;
+    padding:10px;
+    margin: 10px;
   }
+  
+  .box-1{
+    flex:1;
+    order:1;
+    background-color: beige;
+  }
+  
+  .box-2{
+    flex:1;
+    order:2;
+  }
+  
+  .box-3{
+    flex:1;
+    order: 3;
+  }
+  .box-4{
+    flex:1;
+    order: 3;
+  }
+}
