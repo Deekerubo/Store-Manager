@@ -48,11 +48,12 @@ span{
 }
 .topnav{
     height: 30px;
+    background-color: tan;
 }
 .topnav a {
     color: black;
     float: right;
-    padding: 5px;
+    padding: 7px;
     text-decoration: none;
     font-size: 17px;
 }
@@ -166,6 +167,8 @@ span{
     margin-bottom: 10px;
     border-radius: 5px;
     background: white;
+    border: 2px solid #eee;
+
 }
 
 table {
@@ -181,6 +184,8 @@ td, th {
 }
 tr:nth-child(even) {
     background-color: #dddddd;
+}
+.container2{
 }
 .footer {
   position: fixed;
