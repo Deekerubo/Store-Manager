@@ -22,10 +22,11 @@ body {
 }
 /*header styling*/
 p.header{
-    color: #4caf50;
+    color: teal;
     text-transform: uppercase;
     text-align: center;
     font-size: 30px;
+    text-shadow: white;
 }
 /*input for email and password*/ 
 input[type='email'],
@@ -45,7 +46,7 @@ cursor: pointer;
 }
 /*Log in button styling*/
 button {
-    background-color: #4caf50;
+    background-color: teal;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
