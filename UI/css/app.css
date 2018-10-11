@@ -43,21 +43,25 @@ span{
 .main {
     margin-left: 180px;
 }
+.main1{
+  margin: 0px;
+}
 .topnav{
     height: 30px;
+    background-color: tan;
 }
 .topnav a {
     color: black;
     float: right;
-    padding: 5px;
+    padding: 7px;
     text-decoration: none;
     font-size: 17px;
 }
 @media(min-width:468px){
-    .container-1{
+    .container-1,{
       display:flex;
     } 
-  .container-1 div{
+  .container-1,  div{
     border:1px #eee solid;
     padding:10px;
     margin: 10px;
@@ -87,12 +91,108 @@ span{
     background-color: rgb(216, 216, 185);
   }
 }
-.footer {
+/*Styling for all_products.html*/
+.button {
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    background: steelblue;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+  }
+ 
+  .row .product:last-child {
+    margin-right: 0;
+  }
+  
+  .product-add-to-cart {
+    overflow: hidden;
+    clear: both;
+    margin-top: 10px;
+  }
+  
+  .see-more {
+    float: left;
+    background: indianred;
+  }
+  
+  .add-to-cart {
+    float: right;
+  }
+  
+  .shopping-cart {
     position: fixed;
-    left: 0;
-    bottom: 0;
+    top: 0;
+    right: 0;
+    width: 300px;
+    min-height: 300px;
+    margin-right: 20px;
+    margin-top: 10px;
+    padding: 20px;
+    background: wheat;
+  }
+  
+  .shopping-cart-head {
+    background: steelblue;
+    color: white;
+    padding: 5px;
+  }
+  
+  .shopping-cart,
+  .shopping-cart-head {
+    border-radius: 5px;
+  }
+  
+  .empty-cart-btn,
+  .cart-checkout {
+    display: none;
+    
+  }
+  
+  .empty-cart-btn {
+    margin-bottom: 5px;
+  }
+  
+  .cart-checkout {
+    background: limegreen;
+  }
+  /*list of all products*/
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 510px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background: white;
+    border: 2px solid #eee;
+
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
     width: 100%;
-    background-color:rgb(154, 180, 154);
-    color: black;
-    text-align: center;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+.container2{
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:rgb(154, 180, 154);
+  color: black;
+  text-align: center;
 }
