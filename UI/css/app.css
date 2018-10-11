@@ -101,12 +101,12 @@ span{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    max-width: 510px;
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
     background: white;
     border: 2px solid #eee;
+    width: 600px;
 
 }
 
