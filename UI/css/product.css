@@ -38,3 +38,45 @@ td, th {
 tr:nth-child(even) {
     background-color: #dddddd;
 }
+@media(min-width:468px){
+.container2{
+    height: 30%;
+    width: 400px;
+    float: left;
+    padding: 14px 20px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: white;
+}
+.prod-form input:focus {
+    outline: none;
+    border-bottom: solid 1px teal;
+ }
+ .prod-form input {
+    border: none;
+    border-bottom: solid 1px silver;
+    width: 70%;
+    padding-top: 4%;
+    font-size: 90%;
+    margin: 5px;
+ }
+ .button {
+    background: teal;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    margin: auto 5px;
+ }
+ .button:hover,
+ .button-facebook:hover,
+ .button-google:hover {
+    background: #fff;
+    color: teal;
+    border: solid 1px teal;
+    transition: background 0.4s ease-in-out;
+ }
+}
