@@ -13,63 +13,80 @@
 
 <body>
 
-    <div class="topnav">
-      <a href="admin_dashboard.html"><i class="fa fa-dashboard"></i><strong>DASHBOARD</strong></a>
-      <a href="#"><i class="fa fa-fw fa-envelope"></i>Email</a>
-      <a href="#"><i class="fa fa-user-circle"></i><strong>PROFILE</strong></a>
-      <a href="login.html"><i class="fa fa-sign-out"></i><strong>LOGOUT</strong></a>
-      </div>
-
-    <div class="product">
-      <h2>All Products</h2>
-
-      <table>
-        <tr>
-          <th>Product</th>
-          <th>Categogory</th>
-          <th>Description</th>
-          <th>Price</th>
-       
-        </tr>
-        <tr>
-          <td>Hp PAvillion</td>
-          <td>Laptps</td>
-          <td>its a goood laptop</td>
-          <td>ksh. 49,000</td>
-          <td><a href="#"><i class="fa fa-edit"></i></a></td>
-          <td><a href="#"><i class="fa fa-trash-o"></i></a></td>
-        </tr>
-        <tr>
-          <td>bluetooth headsets</td>
-          <td>Headsets</td>
-          <td>good headphones</td>
-          <td>ksh. 5000</td>
-          <td><a href="#"><i class="fa fa-edit"></i></a></td>
-          <td><a href="#"><i class="fa fa-trash-o"></i></a></td>
-        </tr>
-        <tr>
-          <td>Canvio toshiba drive</td>
-          <td>External HardDrives</td>
-          <td>1 TB storage</td>
-          <td>Ksh.5670</td>
-          <td><a href="#"><i class="fa fa-edit"></i></a></td>
-          <td><a href="#"><i class="fa fa-trash-o"></i></a></td>
-        </tr>
-        <tr>
-          <td>Laser Jet Pro</td>
-          <td>Printer</td>
-          <td>M102W printer</td>
-          <td>Ksh. 12,1000</td>
-          <td><a href="#"><i class="fa fa-edit"></i></a></td>
-          <td><a href="#"><i class="fa fa-trash-o"></i></a></td>
-        </tr>
-      </table>
-    </div><!-- products -->
-    <div class="container2">
-
+  <div class="topnav">
+    <a href="admin_dashboard.ht`ml"><i class="fa fa-dashboard"></i><strong>DASHBOARD</strong></a>
+    <a href="#"><i class="fa fa-fw fa-envelope"></i>EMAIL</a>
+    <a href="#"><i class="fa fa-user-circle"></i><strong>PROFILE</strong></a>
+    <a href="login.html"><i class="fa fa-sign-out"></i><strong>LOGOUT</strong></a>
+  </div>
+  <div class="container2">
+    <div class="product-section">
+      <form class="prod-form">
+        <a href="#" type="submit" class="button">Add Product</a><br><br><br>
+        <h1>Create a new Product</h1><br>
+        <input type="text" required placeholder="Name"><br>
+        <input type="text" required placeholder="Description">
+        <input type="number" required placeholder="Price"><br>
+        <select>
+          <option selected>--Select Category--</option>
+          <option value="electronics">Laptops</option>
+          <option value="clothes">External Hard Drives</option>
+          <option value="clothes">Headsets</option>
+          <option value="clothes">Printer</option>
+        </select><br><br><br>
+        <a href="#" type="submit" class="button">Create</a><br><br><br>
+      </form>
     </div>
+  </div>
+  </div>
+  <div class="product">
+    <h2>All Products</h2>
 
-    <!--<div class="shopping-cart">
+    <table>
+      <tr>
+        <th>Product</th>
+        <th>Category</th>
+        <th>Description</th>
+        <th>Price</th>
+
+      </tr>
+      <tr>
+        <td>Hp PAvillion</td>
+        <td>Laptps</td>
+        <td>its a good laptop</td>
+        <td>ksh. 49,000</td>
+        <td><a href="#"><i class="fa fa-edit" style="color:teal; font-size: 20px;"></i></a></td>
+        <td><a href="#"><i class="fa fa-trash-o" style="color:teal; font-size: 20px;"></i></a></td>
+      </tr>
+      <tr>
+        <td>bluetooth headsets</td>
+        <td>Headsets</td>
+        <td>good headphones</td>
+        <td>ksh. 5000</td>
+        <td><a href="#"><i class="fa fa-edit" style="color:teal; font-size: 20px;"></i></a></td>
+        <td><a href="#"><i class="fa fa-trash-o" style="color:teal; font-size: 20px;"></i></a></td>
+      </tr>
+      <tr>
+        <td>Canvio toshiba drive</td>
+        <td>External HardDrives</td>
+        <td>1 TB storage</td>
+        <td>Ksh.5670</td>
+        <td><a href="#"><i class="fa fa-edit" style="color:teal; font-size: 20px;"></i></a></td>
+        <td><a href="#"><i class="fa fa-trash-o" style="color:teal; font-size: 20px;"></i></a></td>
+      </tr>
+      <tr>
+        <td>Laser Jet Pro</td>
+        <td>Printer</td>
+        <td>M102W printer</td>
+        <td>Ksh. 12,1000</td>
+        <td><a href="#"><i class="fa fa-edit" style="color:teal; font-size: 20px;"></i></a></td>
+        <td><a href="#"><i class="fa fa-trash-o" style="color:teal; font-size: 20px;"></i></a></td>
+      </tr>
+    </table>
+  </div><!-- products -->
+
+
+  <!--<div class="shopping-cart">
       <div class="shopping-cart-head">
         <span class="product-quantity">0</span> Product(s) in Cart
       </div>
@@ -81,6 +98,10 @@
       </div>
     </div> -->
   </div><!-- container -->
+  <!--Page footer-->
+  <div class="footer">
+    <p>&copy;2018 Andela challenge Dashboard--</p>
+  </div>
 </body>
 
 </html>
