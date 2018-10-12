@@ -81,6 +81,10 @@ tr:nth-child(even) {
     transition: background 0.4s ease-in-out;
  }
 }
+p cart{
+    text-decoration: none;
+    text-shadow: #fff;
+}
 .footer {
     position: fixed;
     left: 0;
