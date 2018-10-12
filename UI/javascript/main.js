@@ -13,7 +13,7 @@ function check(form)
     /*opens the target page while Id & password matches*/
   }else if(form.email.value == "user@gmail.com" && form.psw.value == "user")
   {
-    window.open('index.html')
+    window.open('user_dashboard.html')
   }
  else
  {
