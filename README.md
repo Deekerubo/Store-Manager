@@ -17,3 +17,11 @@ With the following features:
 ```Points to Note```
 1. This application should help store owners avoid selling products that have run out of stock.
 2. The store owner can be referred to as the admin of the application.
+
+`https://deekerubo.github.io/Store-Manager/UI`
+    ```LogIn Credentials```
+    ```
+    Email: admin@gmail.com  ||user@gmail.com
+    Password:admin          ||user
+    
+    ```
