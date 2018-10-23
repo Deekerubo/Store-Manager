@@ -3,24 +3,6 @@ function validateEmail(email) {
     return re.test(email);
 }
 
-//    /*function to check email & password*/
-// function check(form)
-// {
-//     /*the following code checkes whether the entered email and password are matching*/
-//  if(form.email.value == "admin@gmail.com" && form.psw.value == "admin")
-//   {
-//     window.location.assign('admin_dashboard.html')
-//     /*opens the target page while Id & password matches*/
-//   }else if(form.email.value == "user@gmail.com" && form.psw.value == "user")
-//   {
-//     window.open('user_dashboard.html')
-//   }
-//  else
-//  {
-//    alert("Error Password or Username")/*displays error message*/
-//   }
-// }
-
 function check(form)/*function to check userid & password*/
     {
      var modal = document.getElementById('id1');
