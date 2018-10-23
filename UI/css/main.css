@@ -45,7 +45,7 @@ background-color: darkolivegreen;
 cursor: pointer;
 }
 /*Log in button styling*/
-button {
+.button {
     background-color: teal;
     color: white;
     padding: 14px 20px;

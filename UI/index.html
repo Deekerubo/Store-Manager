@@ -9,26 +9,45 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
     <script src="javascript/main.js"></script>
 </head>
+<div class="after_login" id="id3" style="display:none">dashboard2</div>
+<div class="after_login" id="id1" style="display:none">dashboard</div>
 
 <body>
-    <div>
-        <form>
-            <div class="container1">
-                <p class="header">Solidchain Stores</p>
-                <label for="email">
-                    <b>Email</b>
-                </label>
-                <input type="email" placeholder="Enter Your Email" name="email" required>
-                <label for="psw">
-                    <b>Password</b>
-                </label>
-                <input type="password" placeholder="Enter Password" name="psw" required>
-                <button type="submit" onclick="check(this.form)" value="Login">Login</button>
-                <input type="reset" value="Cancel"/>
-                    </br>
-                </span>
-            </div>
-        </form>
+    <div class="before_login" id="id2">
+        <div>
+            <!-- <form name="login"> -->
+            <form name="login">
+                <div class="container1">
+                    <p class="header">Solidchain Stores</p>
+                     <label for="email">
+                        <b>Email</b>
+                    </label>
+                    <input type="email" placeholder="Enter your email Adress"  name="email" required/>
+                    <label for="psw">
+                        <b>Password</b>
+                    </label>
+                    <input type="password" placeholder="Enter your password" name="psw" required />
+                    <input type="button"  class="button" onclick="check(this.form)" value="Login" />
+                    <input type="reset" value="Cancel" />
+                </div>
+            </form>
+            <!-- <form name="login">
+                <div class="container1"> -->
+                    <!-- <p class="header">Solidchain Stores</p> -->
+                    <!-- <label for="email">
+                        <b>Email</b>
+                    </label> -->
+                    <!-- <input type="email" placeholder="Enter Your Email" name="email" required> -->
+                    <!-- <label for="psw"> -->
+                        <!-- <b>Password</b> -->
+                    <!-- </label> -->
+                    <!-- <input type="password" placeholder="Enter Password" name="psw" required> -->
+                    <!-- <button type="submit" onclick="check(this.form)" value="Login">Login</button> -->
+                    <!-- <input type="reset" value="Cancel" /> -->
+                    <!-- </br> -->
+                <!-- </div> -->
+            <!-- </form> --> 
+        </div>
     </div>
 </body>
 
