@@ -136,3 +136,10 @@ span{
     color: black;
     text-align: center;
 }
+
+#errors{
+    color: red;
+}
+#success{
+    color: green;
+}
