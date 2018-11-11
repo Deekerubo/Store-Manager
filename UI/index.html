@@ -7,7 +7,6 @@
     <title>Store Manager</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
-    <script src="javascript/main.js"></script>
 </head>
 <div class="after_login" id="id3" style="display:none">dashboard2</div>
 <div class="after_login" id="id1" style="display:none">dashboard</div>
@@ -16,24 +15,28 @@
     <div class="before_login" id="id2">
         <div>
             <!-- <form name="login"> -->
-            <form name="login">
+            <form id="login" >
                 <div class="container1">
                     <p class="header">Solidchain Stores</p>
+                    <p id="errors"></p>
                      <label for="email">
                         <b>Email</b>
                     </label>
-                    <input type="email" placeholder="Enter your email Adress"  name="email" required/>
+                    <input id="email" type="email" placeholder="Enter your email Adress"  name="email" required/>
                     <label for="psw">
                         <b>Password</b>
                     </label>
-                    <input type="password" placeholder="Enter your password" name="psw" required />
-                    <input type="button"  class="button" onclick="check(this.form)" value="Login" />
+                    <input id="password" type="password" placeholder="Enter your password" name="psw" required />
+                    <!-- <input type="button"  class="button" onclick="LoginUser()" value="Login" /> -->
+                    <button class="button" onclick="LoginUser()">Login</button>
                     <input type="reset" value="Cancel" />
                 </div>
             </form>
         
         </div>
     </div>
+    <script src="javascript/main.js"></script>
+    <script src="javascript/login.js"></script>
 </body>
 
 </html>
