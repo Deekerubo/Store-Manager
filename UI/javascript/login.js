@@ -19,6 +19,7 @@ const LoginUser = () => {
             document.getElementById('errors').innerHTML = data.message;
         }
         else
+        localStorage.setItem('token', data.access_token)
         window.location.assign("admin_dashboard.html")
     }))
     
