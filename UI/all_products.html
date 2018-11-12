@@ -20,19 +20,24 @@
   </div>
   <div class="container2">
     <div class="product-section">
-      <form class="prod-form">
+      <form class="prod-form" id="products">
         <h1>Create a new Product</h1><br>
-        <input type="text" required placeholder="Name"><br>
-        <input type="text" required placeholder="Description">
-        <input type="number" required placeholder="Price"><br>
-        <select>
+        <p id="errors"></p>
+        <p id="success"></p>
+        <input type="text" id="name" required placeholder="Name"><br>
+        <input type="text" id="description" required placeholder="Description">
+        <input type="number" min="0" id="price" required placeholder="Price"><br>
+        <input type="number" min="0" id="quantity" required placeholder="Quantity"></br>
+        <input type="text" id="category" required placeholder="Category"></br>
+        <!-- <select id>
           <option selected>--Select Category--</option>
           <option value="electronics">Laptops</option>
           <option value="clothes">External Hard Drives</option>
           <option value="clothes">Headsets</option>
           <option value="clothes">Printer</option>
-        </select><br><br><br>
-        <a href="all_products.html" type="submit" class="button">Create</a><br><br><br>
+        </select><br><br><br> -->
+        <!-- <a href="all_products.html" type="submit" class="button">Create</a><br><br><br> -->
+        <button class="button" onclick="FetchProduct()">Create</button>
       </form>
     </div>
   </div>
@@ -88,6 +93,7 @@
   <div class="footer">
     <p>&copy;2018 Andela challenge Dashboard--</p>
   </div>
+  <script src="javascript/new_product.js"></script>
 </body>
 
 </html>
