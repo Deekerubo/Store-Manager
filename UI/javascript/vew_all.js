@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const token = JSON.parse(localStorage.getItem('access_token'));
-    const EntriesUrl = '//api-thriller-diary.herokuapp.com/api/v1/entries/';
+    const EntriesUrl = '/https://storemanger2-api.herokuapp.com/api/v2/products/';
     fetch(`${EntriesUrl}`, {
         method: "GET",
         headers: {
@@ -12,9 +12,9 @@ document.addEventListener('DOMContentLoaded', () => {
     .then((response)=>{
         response.json().then((data) => {
             let entries_view = document.getElementById('tbody');
-            const entries = Object.values(data['Entries'])
+            const entries = Object.values(data['Products'])
             if (entries.length == 0){
-                entries_view.innerHTML = `<div><p>Your entries will appear here</p></div>`;
+                entries_view.innerHTML = `<div><p>Your products will appear here</p></div>`;
             }
             else{
                 let all_entries = `<tr><th>Entry</th><th>Date Created</th><th class="action" colspan="3">Actions</th></tr>`;

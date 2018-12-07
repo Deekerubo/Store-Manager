@@ -18,19 +18,25 @@
     </div>
     <div class="container2">
         <div class="product-section">
-            <form class="prod-form">
+            <form class="prod-form" id="CreateSale">
+                <p><strong>Create A Sale</strong></p>
                 <input type="code" required placeholder="Item code"><br><br>
-                <input type="number" required placeholder="Amount">
-                <select>
+                <input type="number" required placeholder="Quantity">
+                <input type="number" required placeholder="Price">
+
+                <!-- <select>
                     <option selected>--Select Category--</option>
                     <option value="electronics">Laptops</option>
                     <option value="clothes">External Hard Drives</option>
                     <option value="clothes">Headsets</option>
                     <option value="clothes">Printer</option>
-                </select><br>
-                <a href="#"><i class="fa fa-shopping-cart" style="color:teal; font-size: 50px;"></i></a>
+                </select><br> -->
+                <!-- <a href="#"> -->
+                    <i class="fa fa-shopping-cart" style="color:teal; font-size: 50px;" onclick="CreateSale()"></i>
+                <!-- </a> -->
+            </form>
         </div>
-        </form>
+        
     </div>
     <div class="product">
         <h2>Store attendants</h2>
@@ -58,8 +64,8 @@
             </tr>
             <tr>
                 <td>STM/23</td>
-                <td>Ogol</td>
-                <td>Abram</td>
+                <td>Ombati</td>
+                <td>Victor</td>
                 <td>17</td>
                 <td>102,000</td>
             </tr>
@@ -79,13 +85,14 @@
             </tr>
         </table>
     </div><!-- products -->
-    <div class="container3">
+    <div class="container3" id="Profile">
         <p class="text"><strong>STORE ATTENDANT PROFILE</strong></p>
         <p><strong>Name: Kerubo Diana</strong></p>
         <p><strong>StaffID: STM/13</strong></p>
         <p><strong>TotalSales :50,000</strong></p>
         <p><strong>Product sold: 15</strong></p>
     </div>
+    <script src="javascript/create_sale.js"></script>
 </body>
 
 </html>
