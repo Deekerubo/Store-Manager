@@ -1,13 +1,13 @@
 token = localStorage.getItem('token')
 const CreateSale = () => {
-    document.getElementById('sale').addEventListener('submit', (e) => {
+    document.getElementById('sales').addEventListener('submit', (e) => {
         e.preventDefault();
-    const sales_items = document.getElementById('items').value;
+    const sales_items = document.getElementById('sales_items').value;
     const quantity = document.getElementById('quantity').value;
     const price = document.getElementById('price').value;
     const url = 'https://storemanger2-api.herokuapp.com/api/v2/';
 
-    fetch(url + 'sale', {
+    fetch(url + 'sales', {
         method:'POST',
         headers: {
             'Accept': 'application/json',
