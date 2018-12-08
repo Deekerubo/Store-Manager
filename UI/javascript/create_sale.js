@@ -1,7 +1,8 @@
+token = localStorage.getItem('token')
 const CreateSale = () => {
     document.getElementById('sale').addEventListener('submit', (e) => {
         e.preventDefault();
-    const sales_items = document.getElementById('sales_items').value;
+    const sales_items = document.getElementById('items').value;
     const quantity = document.getElementById('quantity').value;
     const price = document.getElementById('price').value;
     const url = 'https://storemanger2-api.herokuapp.com/api/v2/';
@@ -10,11 +11,12 @@ const CreateSale = () => {
         method:'POST',
         headers: {
             'Accept': 'application/json',
-            'Content-type':'application/json'
+            'Content-type':'application/json',
+            'Authorization':'Bearer '+token
         },
         body:JSON.stringify({sales_items:sales_items, quantity:quantity, price:price})
     }).then( resp => resp.json(). then( data => { console.log(data)
-        if (data.message === 'Password should be atleast 6 characters')
+        if (data.message === 'Items not Created')
         {
             document.getElementById('errors').innerHTML = data.message;
         }

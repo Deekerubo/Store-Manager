@@ -18,21 +18,14 @@
     </div>
     <div class="container2">
         <div class="product-section">
-            <form class="prod-form" id="CreateSale">
+            <form class="prod-form" id="sale">
                 <p><strong>Create A Sale</strong></p>
-                <input type="code" required placeholder="Item code"><br><br>
-                <input type="number" required placeholder="Quantity">
-                <input type="number" required placeholder="Price">
-
-                <!-- <select>
-                    <option selected>--Select Category--</option>
-                    <option value="electronics">Laptops</option>
-                    <option value="clothes">External Hard Drives</option>
-                    <option value="clothes">Headsets</option>
-                    <option value="clothes">Printer</option>
-                </select><br> -->
+                <input type="text" id="items" required placeholder="Items"><br><br>
+                <input type="number" id="quantity" required placeholder="Quantity">
+                <input type="number" id="price" required placeholder="Price"><br>
+                <button class="button"  onclick="CreateSale()">Sale</button>
                 <!-- <a href="#"> -->
-                    <i class="fa fa-shopping-cart" style="color:teal; font-size: 50px;" onclick="CreateSale()"></i>
+                    <!-- <i class="fa fa-shopping-cart" style="color:teal; font-size: 50px;" onclick="CreateSale()"></i> -->
                 <!-- </a> -->
             </form>
         </div>
